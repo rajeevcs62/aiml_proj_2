@@ -84,9 +84,7 @@ models = {
     "Decision Tree": DecisionTreeClassifier(),
     "KNN": KNeighborsClassifier(),
     "Naive Bayes": GaussianNB(),
-    "Random Forest": RandomForestClassifier(),
-    "SVM": SVC(probability=True),
-    "Gradient Boosting": GradientBoostingClassifier()
+    "Random Forest": RandomForestClassifier() 
 }
 
 # Model selection
